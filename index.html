@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="player"></div>
+        <div id="puzzle"></div>
+        <div id="goal"></div>
+    </div>
+    
+    <button id="how-to-play-btn">How to Play</button>
+    <button id="open-store-btn">Store</button>
+    
+    <!-- Modal for How to Play instructions -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>How to Play</h2>
+            <p>Use the arrow keys to move the player circle.</p>
+            <p>Move the player to the colored puzzle square to complete the level.</p>
+            <p>Your goal is to reach the green goal square.</p>
+            <p>Have fun exploring!</p>
+        </div>
+    </div>
+    
+    <!-- Modal for Store -->
+    <div id="store-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-store">&times;</span>
+            <h2>Store</h2>
+            <div id="skins">
+                <div class="skin" data-skin="red" style="background-color: red;"></div>
+                <div class="skin" data-skin="green" style="background-color: green;"></div>
+                <div class="skin" data-skin="blue" style="background-color: blue;"></div>
+                <div class="skin" data-skin="yellow" style="background-color: yellow;"></div>
+                <div class="skin" data-skin="orange" style="background-color: orange;"></div>
+                <div class="skin" data-skin="purple" style="background-color: purple;"></div>
+                <div class="skin" data-skin="pink" style="background-color: pink;"></div>
+                <div class="skin" data-skin="cyan" style="background-color: cyan;"></div>
+                <div class="skin" data-skin="magenta" style="background-color: magenta;"></div>
+                <div class="skin" data-skin="lime" style="background-color: lime;"></div>
+                <div class="skin" data-skin="teal" style="background-color: teal;"></div>
+                <div class="skin" data-skin="silver" style="background-color: silver;"></div>
+                <div class="skin" data-skin="gray" style="background-color: gray;"></div>
+                <!-- Add more colors as needed -->
+            </div>
+            <p id="store-message"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

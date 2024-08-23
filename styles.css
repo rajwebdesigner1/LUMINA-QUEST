@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00f; /* Blue */
+    transition: background-color 0.3s;
+}
+
+#puzzle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f00; /* Red */
+    transition: background-color 0.3s;
+}
+
+#goal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #0f0; /* Green */
+}
+
+#level-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+#how-to-play-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#how-to-play-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Obstacle styles */
+.obstacle {
+    position: absolute;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00f; /* Default Blue */
+    transition: background-color 0.3s;
+}
+
+#puzzle {
+    position: absolute;
+   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00f; /* Default Blue */
+    transition: background-color 0.3s;
+}
+
+#puzzle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f00; /* Red */
+    transition: background-color 0.3s;
+}
+
+#goal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #0f0; /* Green */
+}
+
+#level-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+#how-to-play-btn,
+#open-store-btn {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#how-to-play-btn {
+    left: 20px;
+}
+
+#open-store-btn {
+    left: 160px; /* Adjust positioning for visibility */
+}
+
+#how-to-play-btn:hover,
+#open-store-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.close,
+.close-store {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus,
+.close-store:hover,
+.close-store:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Store styles */
+#skins {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.skin:hover {
+    border-color: #007bff;
+}
+
+#store-message {
+    color: red;
+    font-weight: bold;
+}
